@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Arc?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<Pane fx:id="background" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="600.0" style="-fx-background-color: BLACK;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Game">
+    <children>
+
+        <Arc fx:id="arc1" fill="#ff1f23" layoutX="300.0" layoutY="227.0" length="90.0" radiusX="130.0" radiusY="130.0" stroke="BLACK" strokeType="INSIDE" type="ROUND" />
+        <Arc fx:id="arc2" fill="#ff1fd1" layoutX="300.0" layoutY="227.0" length="90.0" radiusX="130.0" radiusY="130.0" startAngle="90.0" stroke="BLACK" strokeType="INSIDE" type="ROUND" />
+        <Arc fx:id="arc3" fill="#d9ff5c" layoutX="300.0" layoutY="227.0" length="90.0" radiusX="130.0" radiusY="130.0" startAngle="180.0" stroke="BLACK" strokeType="INSIDE" type="ROUND" />
+        <Arc fx:id="arc4" fill="DODGERBLUE" layoutX="300.0" layoutY="227.0" length="90.0" radiusX="130.0" radiusY="130.0" startAngle="270.0" stroke="BLACK" strokeType="INSIDE" type="ROUND" />
+        <Circle fx:id="circle_black" fill="#242425" layoutX="300.0" layoutY="227.0" radius="100.0" stroke="BLACK" strokeType="INSIDE" />
+        <Button fx:id="buttonnew" layoutX="518.0" layoutY="155.0" mnemonicParsing="false" text="Button" />
+
+
+        <Circle fx:id="star_circle2" fill="DODGERBLUE" layoutX="300.0" layoutY="426.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" />
+        <Circle fx:id="star_circle3" fill="DODGERBLUE" layoutX="300.0" layoutY="426.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" />
+        <Circle fx:id="star_circle4" fill="DODGERBLUE" layoutX="300.0" layoutY="426.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" />
+        <Circle fx:id="star_circle" fill="DODGERBLUE" layoutX="300.0" layoutY="227.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" />
+
+
+        <Rectangle fx:id="blue_rect" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="200.0" layoutX="-130.0" layoutY="-200" stroke="DODGERBLUE" strokeType="INSIDE" width="30.0" />
+        <Rectangle fx:id="pink_rect" arcHeight="5.0" arcWidth="5.0" fill="#ff1fd1" height="200.0" layoutX="-35.0" layoutY="-200" stroke="#ff1fd1" strokeType="INSIDE" width="30.0" />
+        <Rectangle fx:id="red_rect" arcHeight="5.0" arcWidth="5.0" fill="#ff1f23" height="200.0" layoutX="50.0" layoutY="-200" stroke="#ff1f23" strokeType="INSIDE" width="30.0" />
+        <Rectangle fx:id="green_rect" arcHeight="5.0" arcWidth="5.0" fill="#d9ff5c" height="200.0" layoutX="124.0" layoutY="-200" stroke="#d9ff5c" strokeType="INSIDE" width="30.0" />
+
+<!--        <Polygon fx:id="star2" fill="DODGERBLUE" layoutX="307.0" layoutY="205.0" points="-30.79998779296875, 40.0, 16.20001220703125, 40.0, -9.79998779296875, 3.4000244140625" stroke="BLACK" strokeType="INSIDE" />-->
+<!--        <Polygon fx:id="star1" fill="DODGERBLUE" layoutX="296.0" layoutY="187.0" points="-17.800003051757812, 40.0, 24.199996948242188, 40.0, 3.1999969482421875, 69.4000244140625" stroke="BLACK" strokeType="INSIDE" />-->
+
+        <!--        <Line fx:id="red_line" endX="8.399993896484375" fill="BLACK" layoutX="281.0" layoutY="-200.0" startX="-100.0" stroke="#ff1f23" strokeWidth="10.0" />-->
+<!--        <Line fx:id="pink_line" endX="17.399993896484375" fill="BLACK" layoutX="390.0" layoutY="-200.0" startX="-100.0" stroke="#ff1fd1" strokeWidth="10.0" />-->
+<!--        <Line fx:id="blue_line" endX="10.399993896484375" fill="BLACK" layoutX="279.0" layoutY="-200.0" startX="10.399993896484375" startY="-102.79998779296875" stroke="DODGERBLUE" strokeWidth="10.0" />-->
+<!--        <Line fx:id="green_line" endX="-100.0" endY="110.5999755859375" layoutX="390.0" layoutY="-200.0" startX="-100.0" stroke="#d9ff5c" strokeWidth="10.0" />-->
+
+
+        <Line fx:id="red_line" endX="8.399993896484375" fill="BLACK" layoutX="281.0" layoutY="-500" startX="-100.0" stroke="#ff1f23" strokeWidth="10.0" />
+        <Line fx:id="pink_line" endX="17.399993896484375" fill="BLACK" layoutX="390.0" layoutY="-500" startX="-100.0" stroke="#ff1fd1" strokeWidth="10.0" />
+        <Line fx:id="blue_line" endX="10.399993896484375" fill="BLACK" layoutX="279.0" layoutY="-500" startX="10.399993896484375" startY="-102.79998779296875" stroke="DODGERBLUE" strokeWidth="10.0" />
+        <Line fx:id="green_line" endX="-100.0" endY="110.5999755859375" layoutX="390.0" layoutY="-500" startX="-100.0" stroke="#d9ff5c" strokeWidth="10.0" />
+
+        <Rectangle fx:id="bluehor_rect" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="33.0" layoutX="50.0" layoutY="-500" stroke="DODGERBLUE" strokeType="INSIDE" width="108.0" />
+        <Rectangle fx:id="greenhor_rect" arcHeight="5.0" arcWidth="5.0" fill="#d9ff5c" height="33.0" layoutX="157.0" layoutY="-500" stroke="#d9ff5c" strokeType="INSIDE" width="108.0" />
+        <Rectangle fx:id="redhor_rect" arcHeight="5.0" arcWidth="5.0" fill="#ff1f23" height="33.0" layoutX="264.0" layoutY="-500" stroke="#ff1f23" strokeType="INSIDE" width="108.0" />
+        <Rectangle fx:id="pinkhor_rect" arcHeight="5.0" arcWidth="5.0" fill="#ff1fd1" height="33.0" layoutX="372.0" layoutY="-500" stroke="#ff1fd1" strokeType="INSIDE" width="108.0" />
+
+
+        <Rectangle fx:id="left_bluesquare" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="130.0" layoutX="280.0" layoutY="-574.0" stroke="BLACK" strokeType="INSIDE" width="50.0" />
+        <Rectangle fx:id="right_bluesquare" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="130.0" layoutX="280.0" layoutY="-574.0" stroke="BLACK" strokeType="INSIDE" width="50.0" />
+        <Rectangle fx:id="left_greensquare" arcHeight="5.0" arcWidth="5.0" fill="#d9ff5c" height="136.0" layoutX="45.0" layoutY="-426.0" stroke="BLACK" strokeType="INSIDE" width="50.0" />
+        <Rectangle fx:id="right_greensquare" arcHeight="5.0" arcWidth="5.0" fill="#d9ff5c" height="136.0" layoutX="480.0" layoutY="-426.0" stroke="BLACK" strokeType="INSIDE" width="50.0" />
+        <Rectangle fx:id="left_redsquare" arcHeight="5.0" arcWidth="5.0" fill="#ff1f23" height="136.0" layoutX="280.0" layoutY="-278.0" stroke="BLACK" strokeType="INSIDE" width="50.0" />
+        <Rectangle fx:id="right_redsquare" arcHeight="5.0" arcWidth="5.0" fill="#ff1f23" height="136.0" layoutX="280.0" layoutY="-278.0" stroke="BLACK" strokeType="INSIDE" width="50.0" />
+        <Rectangle fx:id="left_pinksquare" arcHeight="5.0" arcWidth="5.0" fill="#ff1fd1" height="130.0" layoutX="45.0" layoutY="-130.0" stroke="BLACK" strokeType="INSIDE" width="50.0" />
+        <Rectangle fx:id="right_pinksquare" arcHeight="5.0" arcWidth="5.0" fill="#ff1fd1" height="130.0" layoutX="480.0" layoutY="-130.0" stroke="BLACK" strokeType="INSIDE" width="50.0" />
+
+
+        <Arc fx:id="red_switch" fill="#ff1f23" layoutX="300.0" layoutY="10.0" length="90.0" radiusX="20.0" radiusY="20.0" stroke="BLACK" strokeType="INSIDE" type="ROUND" />
+        <Arc fx:id="pink_switch" fill="#ff21d3" layoutX="300.0" layoutY="10.0" length="90.0" radiusX="20.0" radiusY="20.0" startAngle="90.0" stroke="BLACK" strokeType="INSIDE" type="ROUND" />
+        <Arc fx:id="green_switch" fill="#d9ff5c" layoutX="300.0" layoutY="10.0" length="90.0" radiusX="20.0" radiusY="20.0" startAngle="180.0" stroke="BLACK" strokeType="INSIDE" type="ROUND" />
+        <Arc fx:id="blue_switch" fill="DODGERBLUE" layoutX="300.0" layoutY="10.0" length="90.0" radiusX="20.0" radiusY="20.0" startAngle="270.0" stroke="BLACK" strokeType="INSIDE" type="ROUND" />
+
+
+        <Arc fx:id="red_switch2" fill="#ff1f23" layoutX="300.0" layoutY="10.0" length="90.0" radiusX="20.0" radiusY="20.0" stroke="BLACK" strokeType="INSIDE" type="ROUND" />
+        <Arc fx:id="pink_switch2" fill="#ff21d3" layoutX="300.0" layoutY="10.0" length="90.0" radiusX="20.0" radiusY="20.0" startAngle="90.0" stroke="BLACK" strokeType="INSIDE" type="ROUND" />
+        <Arc fx:id="green_switch2" fill="#d9ff5c" layoutX="300.0" layoutY="10.0" length="90.0" radiusX="20.0" radiusY="20.0" startAngle="180.0" stroke="BLACK" strokeType="INSIDE" type="ROUND" />
+        <Arc fx:id="blue_switch2" fill="DODGERBLUE" layoutX="300.0" layoutY="10.0" length="90.0" radiusX="20.0" radiusY="20.0" startAngle="270.0" stroke="BLACK" strokeType="INSIDE" type="ROUND" />
+
+        <Arc fx:id="red_switch3" fill="#ff1f23" layoutX="300.0" layoutY="20.0" length="90.0" radiusX="20.0" radiusY="20.0" stroke="BLACK" strokeType="INSIDE" type="ROUND" />
+        <Arc fx:id="pink_switch3" fill="#ff21d3" layoutX="300.0" layoutY="20.0" length="90.0" radiusX="20.0" radiusY="20.0" startAngle="90.0" stroke="BLACK" strokeType="INSIDE" type="ROUND" />
+        <Arc fx:id="green_switch3" fill="#d9ff5c" layoutX="300.0" layoutY="20.0" length="90.0" radiusX="20.0" radiusY="20.0" startAngle="180.0" stroke="BLACK" strokeType="INSIDE" type="ROUND" />
+        <Arc fx:id="blue_switch3" fill="DODGERBLUE" layoutX="300.0" layoutY="20.0" length="90.0" radiusX="20.0" radiusY="20.0" startAngle="270.0" stroke="BLACK" strokeType="INSIDE" type="ROUND" />
+
+        <Arc fx:id="red_switch4" fill="#ff1f23" layoutX="300.0" layoutY="20.0" length="90.0" radiusX="20.0" radiusY="20.0" stroke="BLACK" strokeType="INSIDE" type="ROUND" />
+        <Arc fx:id="pink_switch4" fill="#ff21d3" layoutX="300.0" layoutY="20.0" length="90.0" radiusX="20.0" radiusY="20.0" startAngle="90.0" stroke="BLACK" strokeType="INSIDE" type="ROUND" />
+        <Arc fx:id="green_switch4" fill="#d9ff5c" layoutX="300.0" layoutY="20.0" length="90.0" radiusX="20.0" radiusY="20.0" startAngle="180.0" stroke="BLACK" strokeType="INSIDE" type="ROUND" />
+        <Arc fx:id="blue_switch4" fill="DODGERBLUE" layoutX="300.0" layoutY="20.0" length="90.0" radiusX="20.0" radiusY="20.0" startAngle="270.0" stroke="BLACK" strokeType="INSIDE" type="ROUND" />
+
+
+
+        <Circle fx:id="ball_circle" fill="#d9ff5c" layoutX="300.0" layoutY="516.0" radius="17.0" stroke="BLACK" strokeType="INSIDE" />
+      <Label fx:id="score_text" layoutX="50.0" layoutY="36.0" text="0" textFill="#eee4e4">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+<!--      <Button fx:id="button2" layoutX="53.0" layoutY="45.0" mnemonicParsing="false" text="Button" />-->
+
+
+
+
+    </children>
+</Pane>
